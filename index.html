@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech-to-Text and Translation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Speech-to-Text and Translation</h1>
+        <form id="uploadForm">
+            <input type="file" id="fileInput" accept="audio/*" />
+            <button type="submit">Upload and Process</button>
+        </form>
+        <div id="loader" class="loader"></div>
+        <div id="results">
+            <h2>Transcription:</h2>
+            <p id="transcription"></p>
+            <h2>Translation:</h2>
+            <p id="translation"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
